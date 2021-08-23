@@ -1,0 +1,3 @@
+[submodule "Node-Logger"]
+	path = Node-Logger
+	url = git@github-personal:thomasnorris/Node-Logger.git
