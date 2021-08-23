@@ -12,20 +12,34 @@
             "log_rest_request": "SP_LogRESTRequest"
         }
     },
-    "log_types": {
-        "debug": 1,
-        "info": 2,
-        "warning": 3,
-        "error": 4,
-        "critical": 5,
-        "init": 6
-    },
     "messages": {
         "init": "App started",
         "default": "Message not supplied"
     },
     "express": {
         "port": 1500,
-        "endpoint": "/"
+        "endpoint": "/",
+        "auth": {
+            "key": "X-Auth",
+            "value": ""
+        },
+        "payload_format": {
+            "app_ID": {
+                "description": "ID of the app in the Apps table",
+                "required": true
+            },
+            "log_type_ID": {
+                "description": "ID of the log type in the LogTypes table",
+                "required": true
+            },
+            "message": {
+                "description": "Message to send",
+                "required": true
+            },
+            "details": {
+                "description": "Useful details",
+                "required": false
+            }
+        }
     }
 }
