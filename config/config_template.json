@@ -1,5 +1,10 @@
 {
-    "debug_mode": false,
+    "debug_mode": true,
+    "defaults": {
+        "message": "Message not supplied",
+        "app_ID": 1,
+        "log_type_ID": 1
+    },
     "sql": {
         "connection": {
             "host": "host",
@@ -11,10 +16,6 @@
         "sp": {
             "log_rest_request": "SP_LogRESTRequest"
         }
-    },
-    "messages": {
-        "init": "App started",
-        "default": "Message not supplied"
     },
     "express": {
         "port": 1500,
