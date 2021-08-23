@@ -29,7 +29,7 @@ _app.post(_cfg.express.endpoint, (req, res) => {
     }
     // valid?
     else if (!payloadValid(req.body)) {
-        var msg = 'Invalid payload given';
+        var msg = 'Invalid payload';
         _logger.Error.Async(msg, 'Payload: ' + JSON.stringify(req.body));
         res.status(409).json({
             message: msg,
