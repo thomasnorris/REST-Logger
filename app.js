@@ -1,4 +1,10 @@
 var _path = require('path');
+
+var _bodyParser = require('body-parser');
+var _express = require('express');
+var _app = _express();
+
+
 const CFG_FILE = _path.resolve(__dirname, 'config', 'config.json');
 var _cfg = readJson(CFG_FILE);
 
