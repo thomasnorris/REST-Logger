@@ -1,0 +1,18 @@
+{
+    "sql": {
+        "connection": {
+            "host": "host",
+            "database": "Database",
+            "user": "user",
+            "password": "password",
+            "port": 3306
+        },
+        "sp": {
+            "log_rest_request": "SP_LogRESTRequest"
+        }
+    },
+    "express": {
+        "port": 1500,
+        "endpoint": "/"
+    }
+}

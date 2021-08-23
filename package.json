@@ -1,0 +1,16 @@
+{
+  "name": "REST-Logger",
+  "version": "1.0.0",
+  "description": "REST endpoints for logging events to a Mariadb server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-personal:thomasnorris/REST-Logger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
